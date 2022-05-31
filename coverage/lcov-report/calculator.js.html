@@ -23,9 +23,9 @@
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">57.14% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>8/14</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
@@ -37,16 +37,16 @@
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">14.28% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/7</span>
+                <span class='fraction'>7/7</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
-                <span class="strong">72.72% </span>
+                <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>8/11</span>
+                <span class='fraction'>11/11</span>
             </div>
         
             
@@ -61,7 +61,7 @@
             </div>
         </template>
     </div>
-    <div class='status-line medium'></div>
+    <div class='status-line high'></div>
     <pre><table class="coverage">
 <tr><td class="line-count quiet"><a name='L1'></a><a href='#L1'>1</a>
 <a name='L2'></a><a href='#L2'>2</a>
@@ -101,31 +101,31 @@
 <a name='L36'></a><a href='#L36'>36</a>
 <a name='L37'></a><a href='#L37'>37</a>
 <a name='L38'></a><a href='#L38'>38</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
@@ -141,28 +141,28 @@
     return a + b;
 };
 &nbsp;
-const subtract = <span class="fstat-no" title="function not covered" >fu</span>nction(a, b){
-<span class="cstat-no" title="statement not covered" >    return a - b;</span>
+const subtract = function(a, b){
+    return a - b;
 };
 // console.log(subtract(10,5))
 &nbsp;
-const multiply = <span class="fstat-no" title="function not covered" >(a</span>, b) =&gt; <span class="cstat-no" title="statement not covered" >a * b;</span>
+const multiply = (a, b) =&gt; a * b;
 // console.log(multiply(2,3))
 &nbsp;
-const divide = <span class="fstat-no" title="function not covered" >(a</span>,b ) =&gt; <span class="cstat-no" title="statement not covered" >a /b;</span>
+const divide = (a,b ) =&gt; a /b;
 // console.log(divide(3,1))
 &nbsp;
-function <span class="fstat-no" title="function not covered" >modulus(</span>a, b){
-<span class="cstat-no" title="statement not covered" >    return a % b;</span>
+function modulus(a, b){
+    return a % b;
 };
 // console.log(modulus(5,3));
 &nbsp;
-const even = <span class="fstat-no" title="function not covered" >fu</span>nction(a){
-<span class="cstat-no" title="statement not covered" >    return (a % 2) == 0;</span>
+const even = function(a){
+    return (a % 2) == 0;
 };
 // console.log(even(5))
 &nbsp;
-const odd = <span class="fstat-no" title="function not covered" >(a</span>) =&gt; <span class="cstat-no" title="statement not covered" >a % 2 &gt; 0;</span>
+const odd = (a) =&gt; a % 2 &gt; 0;
 // console.log(odd(4))
 &nbsp;
 module.exports = { 
@@ -181,7 +181,7 @@ module.exports = {
             <div class='footer quiet pad2 space-top1 center small'>
                 Code coverage generated by
                 <a href="https://istanbul.js.org/" target="_blank" rel="noopener noreferrer">istanbul</a>
-                at Tue May 31 2022 15:38:09 GMT+0100 (British Summer Time)
+                at Tue May 31 2022 16:18:31 GMT+0100 (British Summer Time)
             </div>
         <script src="prettify.js"></script>
         <script>
