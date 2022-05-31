@@ -8,8 +8,10 @@ const subtract = function(a, b){
 console.log(subtract(10,5))
 
 const multiply = (a, b) => a * b;
+console.log(multiply(2,3))
 
-const divide = null;
+const divide = (a,b ) => a /b;
+console.log(divide(3,1))
 
 const modulus = null;
 
