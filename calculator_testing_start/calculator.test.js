@@ -76,17 +76,58 @@ describe('multiply', () => {
 });
 
 describe('divide', () => {
+  test('divide decimal numbers', () =>{
+    const actual = divide(0.1, 0.5);
+    const expected = 0.2;
+    expect(actual).toBe(expected);
+  });
+  test('can divide by large number', () => {
+    const actual = divide(5, 10000);
+    const expected = 0.0005
+    expect(actual).toBe(expected);
+  })
 
 });
 
 describe('modulus', () => {
+  test('runs when a > b', () =>{
+    const actual = modulus(2, 6);
+    const expected = 2;
+    expect(actual).toBe(expected);
+  });
+  test('runs when a < b', () =>{
+    const actual = modulus(13, 6);
+    const expected = 1;
+    expect(actual).toBe(expected);
+
+  })
 
 });
 
 describe('even', () => {
+  test('works with evevn number', () =>{
+    const actual = even(14);
+    const expected = true;
+    expect(actual).toBe(expected);
+  });
+  test('works with odd', () =>{
+    const actual = even(15);
+    const expected = false;
+    expect(actual).toBe(expected);
+  })
 
 });
 
 describe('odd', () => {
+  test('works with odd', () =>{
+    const actual = odd(3);
+    const expected = true;
+    expect(actual).toBe(expected);
+  });
+  test('works with even', () =>{
+    const actual = odd(12);
+    const expected = false;
+    expect(actual).toBe(expected);
+  })
 
 });
